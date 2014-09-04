@@ -30,8 +30,8 @@ public class Person5 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 5 put your implementation here
-	  return null;
+            StringBuilder str = new StringBuilder(input);
+            return str.reverse().toString();
 	}
 	
 	/**
