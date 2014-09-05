@@ -1,4 +1,4 @@
-package edu.gatech.oad.antlab.person;
+package main.java.edu.gatech.oad.antlab.person;
 // Seth Davis
 // 902915379
 /**
