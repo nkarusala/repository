@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+defaultTasks 'jar'
+
+jar {
+    manifest.attributes 'Main-Class': 'main.java.edu.gatech.oad.antlab.pkg1.AntLabMain'
+    manifest.attributes 'Class-Path': '../../lib/resources.jar'
+}
+
+dependencies {
+	compile files('lib/resources.jar')
+}
