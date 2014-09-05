@@ -1,5 +1,5 @@
 apply plugin: 'java'
-defaultTasks: 'jar'
+defaultTasks 'jar'
 
 jar {
     manifest.attributes 'Main-Class': 'main.java.edu.gatech.oad.antlab.pkg1.AntLabMain'
