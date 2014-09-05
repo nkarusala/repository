@@ -9,5 +9,5 @@ jar {
 version '1.0'
 
 dependencies {
-    compile file('lib/resources.jar')
+    compile files('lib/resources.jar')
 }
